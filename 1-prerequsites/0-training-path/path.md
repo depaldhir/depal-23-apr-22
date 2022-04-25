@@ -1,4 +1,4 @@
-# Duration : 50 hours
+# Duration : 60 hours
 | Topic              | Duration (hours) | Status |
 | -------------------| ---------------- | ------ |
 | Devops Intro       | 1                |        |
