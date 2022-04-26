@@ -20,3 +20,24 @@
 | `cat /tmp/filename`   | view the file which is in different dir |
 | `cat ../filename`     | view the file which is in parent dir    |
 | `cat ../../filename ` | view a file which is two steps ahead    |
+
+# Other uses of cat module
+
+## How to check if file is corrupted or not
+
+- `cat goodfile >/dev/null 2>&1` : echo $? (returns 0 when this file is corrupted)
+
+- `cat badfile > /dev/null 2>&1` : echo $? (returns 1 when this file is corrupted)
+
+## Check count of cpu
+
+- `cat /proc/cpuinfo | grep processor | wc -l`
+
+## Check complete cpu information
+
+- `cat /proc/cpuinfo`
+
+## To check which OS is installed
+
+- `cat /etc/issue`
+- `cat /etc/redhat-release`
