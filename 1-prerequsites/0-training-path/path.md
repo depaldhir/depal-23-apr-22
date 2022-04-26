@@ -3,6 +3,8 @@
 | -------------------| ---------------- | ------ |
 | Devops Intro       | 1                |        |
 | Infra Prerequsites | 1                |        |
+| Linux              | 1                |        |
+| Shell script       |                  |        |
 | Git                | 10               |        |
 | Terraform          | 10               |        |
 | Ansible            | 10               |        |
