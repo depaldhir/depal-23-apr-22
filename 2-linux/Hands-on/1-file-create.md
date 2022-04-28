@@ -2,13 +2,12 @@
 
 ## create file using `touch` module
 
-| Command                    | Description                                          | Flags           |
-| -------------------------- | -----------------------------------------------------|-----------------|
-| `touch file1.txt`          | Create file with touch                               |                 |
-| `touch file1.txt file2.txt`| Create multiple files                                |                 |
-| `touch /tmp/file1.txt`     | Create file under specific dir                       |                 |
-| `touch -v /tmp/file2.txt`  | Using verbose                                        | -v = verbose    |
-
+| Command                     | Description                    | Flags |
+| --------------------------- | ------------------------------ | ----- |
+| `touch file1.txt`           | Create file with touch         |       |
+| `touch file1.txt file2.txt` | Create multiple files          |       |
+| `touch /tmp/file1.txt`      | Create file under specific dir |       |
+| `touch /tmp/file2.txt`      | Using verbose                  |       |
 
 ## Creating a File with the `Redirection Operator`
 
